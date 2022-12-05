@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background: url('https://images4.alphacoders.com/976/thumb-1920-976013.jpg');
+    object-fit: contain;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(255, 162, 232, 0.105);
+    box-shadow: 0 0 5px rgba(86, 41, 128, 0.404);
+    padding: 20px;
+    width: 300px;
+    height: 370px;
+    text-align: center;
+}
+
+.card h2 {
+    color: rgba(255, 162, 232, .8);
+}
+
+.card form input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 10px 0;
+}
+
+.card form .error {
+    color: red;
+    margin-top: 0;
+}
+
+.card form button {
+    padding: 14px 20px;
+    width: 75%;
+    background-color: rgb(194, 58, 160);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.link a {
+    color: rgba(255, 162, 232, .8);
+}
